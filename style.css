@@ -67,6 +67,11 @@ p {
   display: block;
 }
 
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
 .about-paragraphs {
   margin: 30px 0;
 }
